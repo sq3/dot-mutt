@@ -134,11 +134,11 @@ alternative_order text/plain text/enriched text/html text/calendar
   ignore *
 unignore from: date: subject: to: cc: message-id: in-reply-to: user-agent: resent- reply-to: mail-followup-to:
 unignore newsgroups: references: posted-to: followup-to: nntp-posting-host:
-unignore organization: organisation: x-
-unignore lines:
-# ignore x-status: x-uidl: x-attribution: x-authentication-warning: x-mime: x-msmail-priority: x-priority:
-unhdr_order *
-  hdr_order message-id: in-reply-to: references: path: received: date: expiry-date: nntp-posting-host: sender return-path from from: organization: organisation: resent- reply-to: mail-followup-to: mail-copies-to: errors-to: to: cc: delivered-to: mailing-list: list- newsgroups: followup-to: subject: importance: status: precedence: old- content- mime- x- user-agent: lines:
+#unignore organization: organisation: x-
+#unignore lines:
+## ignore x-status: x-uidl: x-attribution: x-authentication-warning: x-mime: x-msmail-priority: x-priority:
+#unhdr_order *
+#  hdr_order message-id: in-reply-to: references: path: received: date: expiry-date: nntp-posting-host: sender return-path from from: organization: organisation: resent- reply-to: mail-followup-to: mail-copies-to: errors-to: to: cc: delivered-to: mailing-list: list- newsgroups: followup-to: subject: importance: status: precedence: old- content- mime- x- user-agent: lines:
 
 # source some important files - default profile
 source ~/.mutt/default/attachments
