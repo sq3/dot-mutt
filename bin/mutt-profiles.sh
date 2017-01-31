@@ -4,7 +4,7 @@ mutt_profile_dir="${HOME}/.mutt/profiles"
 while true; do
 	declare -a mutt_profile_list
 	let c=1
-	for p in $(find "${mutt_profile_dir}" -mindepth 1 -maxdepth 1 -type d -not -name ".*" | sort -n); do
+	for p in $(find "${mutt_profile_dir}" -mindepth 1 -maxdepth 1 | sort -n); do
 		mutt_profile_list[${c}]="${p##*/}" # basename of the directory
 		let c++
 	done; unset c; unset p
