@@ -2,4 +2,4 @@
 
 # default profile muttrc
 source ~/.mutt/default/muttrc
-source ~/.mutt/profile/muttrc
+source ~/.mutt/profiles/muttrc
