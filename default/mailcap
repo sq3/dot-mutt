@@ -2,6 +2,7 @@
 
 #text/plain; cat %s; copiousoutput
 text/calendar; cat %s; copiousoutput
+application/ics; open %s; copiousoutput
 #text/x-java; cat %s; copiousoutput
 text/x-java; source-highlight -s java -f esc --style-file=esc.style -n -i %s; copiousoutput
 audio/mpeg; mpg321 %s
