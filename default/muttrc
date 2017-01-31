@@ -152,3 +152,7 @@ source ~/.mutt/default/score
 
 # show version on startup
 exec show-version
+
+# imap and subscription settings
+set imap_check_subscribed
+set timeout=10
