@@ -115,6 +115,9 @@ macro index _m "<limit>~p<enter>" "show msgs addressed to 'me' only"
 macro index _l "<limit>~y " "show certain labeled msgs only"
 macro index _t "<limit>~T<enter>" "show tagged msgs only"
 macro index _T "<enter-command>set sort=date-received<enter><limit>~y TODO<enter>" "show msgs labeled 'TODO' only"
+macro index <f2> "<limit>~d <1w<enter>" "show msg from the last 7 days only"
+macro index <f3> "<limit>~d <2w<enter>" "show msg from the last 14 days only"
+macro index <f4> "<limit>all<enter>" "show msg from the last 14 days only"
 
 ##
 ## affecting the message content
